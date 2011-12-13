@@ -1,0 +1,12 @@
+
+<%= form_tag '/'  do %>
+    <%= label_tag :First %><br />
+    <%= text_field_tag :one, @calc %>
+
+    <%= submit_tag "+" %>
+    <%= submit_tag "-" %>
+    <%= submit_tag "=" %>
+<% end %>
+<%= @rez%>
+
+
